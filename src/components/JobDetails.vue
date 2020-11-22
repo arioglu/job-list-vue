@@ -4,7 +4,7 @@
       <Button :label="'Back'" style="margin: 0" @back="$router.go(-1)" />
     </div>
     <div class="job-detail">
-      <p class="job-title__label">Job Title</p>
+      <p class="job-title__label">{{ jobTitle }}</p>
       <p>{{ cityName }} / {{ townName }}</p>
       <p style="margin-top: 50px">Detailed Job Description</p>
       <p style="margin-bottom: 20px">{{ description }}</p>
@@ -37,6 +37,9 @@ export default {
     },
     townName() {
       return this.getDetails.result.townName;
+    },
+    jobTitle() {
+      return this.getDetails.result.positionName;
     },
   },
   methods: {
@@ -78,7 +81,6 @@ export default {
 }
 .apply-btn {
   justify-content: center;
-  width: 100%;
 }
 .job-title__label {
   font-style: italic;
