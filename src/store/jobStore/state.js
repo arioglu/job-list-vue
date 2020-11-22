@@ -33,7 +33,7 @@ export default function() {
               latitude: 41.050968170166023,
               longitude: 29.062856674194339,
               cityName: "İstanbul",
-              townName: "Ataşehir",
+              townName: "Ümraniye",
             },
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB3",
@@ -61,7 +61,7 @@ export default function() {
               latitude: 41.050968170166023,
               longitude: 29.062856674194339,
               cityName: "İstanbul",
-              townName: "Ataşehir",
+              townName: "Ümraniye",
             },
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB5",
