@@ -51,17 +51,6 @@ export default {
       return this.validateForm();
     },
   },
-  watch: {
-    $router(data) {
-      console.log("this route", data);
-    },
-    selectedLocation(val) {
-      console.log("val changed", val);
-    },
-    queryString(val) {
-      console.log("val changed", val);
-    },
-  },
   methods: {
     validateForm() {
       return this.queryString !== "" || this.selectedLocation !== "";
@@ -88,9 +77,6 @@ export default {
       this.queryString = "";
       this.selectedLocation = "";
     },
-  },
-  mounted() {
-    console.log({ router: this.$router });
   },
 };
 </script>
