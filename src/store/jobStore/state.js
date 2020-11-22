@@ -9,7 +9,7 @@ export default function() {
           items: [
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB1",
-              positionName: "Position 1",
+              positionName: "Software Engineer",
               companyName: "Company 1",
               durationDay: 0,
               durationDayText: "Fresh Ad",
@@ -23,7 +23,7 @@ export default function() {
             },
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB2",
-              positionName: "Position 2",
+              positionName: "Software Engineer",
               companyName: "Company 2",
               durationDay: 0,
               durationDayText: "Fresh Ad",
@@ -37,7 +37,7 @@ export default function() {
             },
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB3",
-              positionName: "Position 3",
+              positionName: "Software Engineer",
               companyName: "Company 3",
               durationDay: 0,
               durationDayText: "Fresh Ad",
@@ -51,7 +51,7 @@ export default function() {
             },
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB4",
-              positionName: "Position 4",
+              positionName: "Food Engineer",
               companyName: "Company 4",
               durationDay: 0,
               durationDayText: "Fresh Ad",
@@ -65,7 +65,7 @@ export default function() {
             },
             {
               jobId: "C71CD1954BA149BCAF42B25F775EA4FB5",
-              positionName: "Position 5",
+              positionName: "Food Engineer",
               companyName: "Company 5",
               durationDay: 0,
               durationDayText: "Fresh Ad",
