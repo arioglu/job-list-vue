@@ -20,6 +20,7 @@
           </p>
         </div>
       </div>
+      <div v-if="isListEmpty" class="not-found">No results were found.</div>
     </div>
   </div>
 </template>
@@ -50,6 +51,9 @@ export default {
     }),
     jobList() {
       return this.getJobList;
+    },
+    isListEmpty() {
+      return this.jobList.length < 1;
     },
   },
   mounted() {
@@ -103,6 +107,9 @@ p {
     cursor: pointer;
     background-color: rgb(225, 231, 230);
   }
+  @media only screen and (max-width: 720px) {
+    width: 70%;
+  }
 }
 .job-list-item {
   width: 100%;
@@ -135,8 +142,14 @@ p {
 .btn-group {
   width: calc(50% + 50px);
   margin-bottom: 20px;
-  @media only screen and (max-width: 550px) {
-    width: calc(50% + 50px);
+  @media only screen and (max-width: 720px) {
+    width: calc(70% + 50px);
   }
+}
+.not-found {
+  justify-content: center;
+  display: flex;
+  margin: 100px;
+  white-space: nowrap;
 }
 </style>

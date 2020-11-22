@@ -71,18 +71,21 @@ export default {
 .job-detail {
   width: 50%;
   margin: 20px 0;
-  background-color: #ffeafd;
+  background-color: #efe7bc;
   border-radius: 5px;
   > p {
     margin: 10px 0;
     padding: 0 10px;
   }
+  @media only screen and (max-width: 720px) {
+    width: 70%;
+  }
 }
 .job-detail-container-btn {
   display: flex;
   width: 50%;
-  @media only screen and (max-width: 550px) {
-    width: 50%;
+  @media only screen and (max-width: 720px) {
+    width: 70%;
   }
 }
 .back-btn {
